@@ -1,10 +1,14 @@
+import { BrowserRouter, Route } from "react-router-dom";
 import React from 'react';
-import hoverpost from './Hoverpost.js'
+import Home from './Home.js'
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <BrowserRouter>
+            <Home />
+
+            {/* <Route path='/sign' component={Sign} /> */}
+
+        </BrowserRouter>
   );
 };
 
